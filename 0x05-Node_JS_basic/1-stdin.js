@@ -6,7 +6,7 @@
  * - message when closing
  */
 
-const {stdout, stdin} = process;
+const { stdout, stdin } = process;
 
 stdout.write('Welcome to Holberton School, what is your name?\n');
 stdin.on('data', (data) => {
